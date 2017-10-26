@@ -2,6 +2,12 @@
 
 Redirect all requests to scipion-portal
 
+Deploy:
+
+```
+$ heroku config:set DISABLE_COLLECTSTATIC=0
+```
+
 ## Config
 
 ```
